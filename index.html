@@ -6,13 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src='https://api.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.js'></script>
     <link href='https://api.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.css' rel='stylesheet' />
-    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet"> 
+
+    
+<link rel="stylesheet" href="styles.css">
     <title>Weather App</title>
 </head>
 <body>
     <div id="navBar">
-        <input type="search" name="" id="cityInput" placeholder="Enter a city">
-        <button id="submitCity">Search</button>
+        <input class="form-text" type="search" name="" id="cityInput" placeholder="Enter a city">
+        <button id="submitCity" class="btn btn-secondary">Search</button>
+        <button id='units'>F/C</button>
     </div>
     <div id="content"></div>
     <div id='map' style='width: 400px; height: 300px;'></div>
