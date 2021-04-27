@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+}
+
+span{
+    display: block;
+}
+
+#navBar {
+    background-color: coral;
+    padding: .4rem;
+}
